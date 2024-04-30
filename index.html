@@ -4,48 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Lachlan Caldwell">
+    <meta name="author" content="Nish Mandal">
     <meta name="description" content="This is a wonderful webpage">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+ 
+    <link href="profileStyle.css" rel="stylesheet">
     <title>My Profile</title>
 </head>
  
-<body>
+<body class ="container">
     <nav>
         <a href="Index.html">Home</a>
         <a href="projects.html">Projects</a>
-        <a href="https://www.linkedin.com/in/lachlancaldwell/" target="_blank">My LinkedIn</a>
+        <a href="https://www.linkedin.com/in/nishantmandal/" target="_blank">My LinkedIn</a>
     </nav>
     <img alt ="My Pic" src="images/profilepic.jpg" width="200px">
-    <h1>Lachlan Caldwell</h1>
+    <h1>Nish Mandal</h1>
     <h2>My Profile</h2>
     <p>An <em>awesome</em> and <strong>amazing</strong> website demo!!</p>
-    <header>
+    <header class = "box-2">
         <h3>My Skills</h3>
         <p>Agile, Scrum and similar methodologies</p>
         <p>Writing some great tests using JUnit</p>
     </header>
-    <section>
+    <section class = "box-1">
         <h4>My Hobbies</h4>
         <ul>
+            <li>French</li>
+            <li>Piano</li>
             <li>Running</li>
-            <li>Guitar</li>
-            <li>Cycling</li>
         </ul>
     </section>
-    <section>
+    <section class = "box-1">
         <h5>Goals</h5>
-   
+        <ul>
+            <li>Become President</li>
+        </ul>
+    </section>
+    <div>
         <h6>Search for news</h6>
         <form action="https://www.bbc.co.uk/search">
             <label for="mysearch">Search for:</label>
-            <input type="mysearch" name="q" type="text" value="Brumdog millionaire">
-            <input type="text" name="" id="">
- 
+            <input id="mysearch" name="q" type="text" value="Birmingham">
+            <input class="button" type="submit" value="Submit">
         </form>
-    </section>
+    </div>
     <footer>
-        <small>Copyright &#169; Sparta Global 2024 <cite>by LC</cite></small>
+        <small>Copyright &#169; Sparta Global 2024 <cite>by Nish</cite></small>
     </footer>
 </body>
  
